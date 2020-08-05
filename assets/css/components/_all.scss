@@ -1,0 +1,27 @@
+body{background-color:#f0f3f4;}
+#container{width:100%;position:relative;top:0px;font-family:$font2;font-size:18px;
+a{text-decoration:none;color:inherit;}
+@import 'leftmenu';
+@import 'notifs';
+@import 'editbox';
+@import 'imglib';
+@import 'form';
+@import 'login';
+
+
+.page-in{position:relative;left:20%;width:calc(100% - 25%);margin-top:50px;
+@import 'dashboard';
+@import 'form';
+@import 'categories';
+@import 'imglib';
+@import 'tooltip';
+}
+}
+
+@media only screen and (max-width :480px){
+#container{
+	#banner{top:-30px;height:60px;font: 22px/22px 'Merienda', cursive;
+		h3{padding-top:18px;}
+	}
+}
+}

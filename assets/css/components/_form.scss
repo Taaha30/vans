@@ -1,0 +1,17 @@
+form{
+	label,.inline-form{font-size:14px;text-transform: capitalize;width: 300px;
+		textarea,input,select{padding:5px;border-radius:5px;border:1px solid rgba(0,0,0,0.2);margin-top:5px;width: 100%;}
+		input:focus,textarea:focus,select:focus{outline:none;box-shadow:0 2px 10px rgba(0, 0, 0, 0.2);}
+		.validate{color:red;}
+	}
+	label > input[type="checkbox"]{width:10px;}
+}
+
+form.bigform{position: relative;display: flex;flex-flow: column;justify-content: center;width: 300px;
+	label,.inline-form{font-size:14px;
+		textarea,input,select{padding:5px;border-radius:5px;border:1px solid rgba(0,0,0,0.2);margin-top:5px;width: 100%;}
+		input:focus,textarea:focus,select:focus{outline:none;box-shadow:0 2px 10px rgba(0, 0, 0, 0.2);}
+		.validate{color:red;}
+	}
+	label > input[type="checkbox"]{width:10px;}
+}

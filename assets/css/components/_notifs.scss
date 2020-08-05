@@ -1,0 +1,8 @@
+#notifs{position:fixed;right:5%;bottom:-100%;padding:20px;background:rgba(0,0,0,0.6);border-radius:5px;transition:0.7s;z-index:9999;
+	.success{color:#fff;
+		&:before{content:"\1F601 \1F44D ";}
+	}
+	.fail{color:#fff;
+		&:before{content:"\1F61F \1F44E ";}
+	}
+}

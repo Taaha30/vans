@@ -1,0 +1,15 @@
+#edit-box{position:fixed;width:100vw;height:100vh;top: 0;z-index: -999;
+	.tint{position: absolute;width: 100%;height: 100%;background-color: rgba(0,0,0,0.7);opacity: 0;transition: 0.7s;}
+	#edit-inbox{position: absolute;box-shadow:0px 0px 3px rgba(0,0,0,0.5);max-width: 800px;max-height: 400px;transition: 0.7s; overflow:auto;border-radius: 5px;height:auto;background-color:#fff;padding: 40px;margin: auto;left: 0;right: 0;top: -300vh;bottom: 0;display: block;
+		.dash-title{box-shadow:0px 0px 1px rgba(0,0,0,0.5); border-radius:5px;padding:10px;background:#fff;margin-bottom:20px;display:flex;flex-flow:row;position:sticky;top:-40px;z-index:99;align-items:center;height:40px;justify-content: space-between;
+		h1{font-size:20px;margin:0;margin-right:30px;text-transform:uppercase;}
+		.searchnext{width:40%;padding:5px;border-radius:5px;border:1px solid rgba(0,0,0,0.2);
+			&:focus{outline:none;box-shadow:0 2px 10px rgba(0, 0, 0, 0.2);}
+		}
+		.many-buts{display:flex;
+			div{margin:0px 5px 0px 5px;}
+		}
+}
+	.nobut-link{color: #008CFF;}
+	}
+}

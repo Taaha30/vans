@@ -1,0 +1,52 @@
+.dash-title{box-shadow:0px 0px 1px rgba(0,0,0,0.5); border-radius:5px;padding:10px;background:#fff;margin-bottom:20px;display:flex;flex-flow:row;position:sticky;top:0;z-index:99;align-items:center;height:40px;justify-content: space-between;
+		h1{font-size:20px;margin:0;margin-right:30px;text-transform:uppercase;}
+		.searchnext{width:40%;padding:5px;border-radius:5px;border:1px solid rgba(0,0,0,0.2);
+			&:focus{outline:none;box-shadow:0 2px 10px rgba(0, 0, 0, 0.2);}
+		}
+		.many-buts{display:flex;min-width:47.3%;
+			div{margin:0px 5px 0px 5px;}
+		}
+}
+.dash-box{position:relative;box-shadow:0px 0px 1px rgba(0,0,0,0.5); border-radius: 5px;height:auto;background-color:#fff;padding: 10px;display: flex;flex-flow:row wrap;vertical-align: top;margin-bottom: 50px;
+	.boxline:hover .dash-inbox{display:inline-block;}
+}
+.boxfull-new{position: relative;display: flex;flex-flow: row wrap;width: 100%;
+	.typedets{width: 100%;display: flex;flex-flow: row wrap;align-items: center;
+			img{width:100%;}
+			div{
+				img{max-width:200px;max-height:300px;}
+				.small{font-size: 12px;}
+			}
+			.banners{display: flex;flex-flow: row wrap;text-align: center;
+				div{padding:20px;border:1px solid rgba(0,0,0,0.1);margin:5px 5px 5px 0px;border-radius:5px;}
+			}
+			.textdets{display:flex;justify-content:center;align-items:center;padding:20px;font-size:16px;font-weight:bold;max-width:42.4%;
+				.detsmall{font-size:14px;text-decoration:underline;font-weight:normal;}
+				.nobut-link{color: #008CFF;
+				&:hover{text-decoration:underline;}
+			}
+			}
+		}
+	.message{margin:10px 0px 10px 0px;}
+	.blocknumb div:first-child{width:100px;}
+	.runnames{position: relative;display: flex;flex-direction: column nowrap;width: 100%;margin: 10px 0px 10px 0px;align-items: center;padding: 10px;border-radius:5px;
+		div{width:50%;
+			img{max-width:100px;}
+			.nobut-link{color: #008CFF;font-size: 12px;
+				&:hover{text-decoration:underline;}
+			}
+			form{
+				display: flex;flex-flow: row;align-items: center;
+			}
+			.small{font-size: 12px;}
+			.delete-but{width: 20px;
+				.delete-in{width:20px;}
+				.delete-in:hover ~ .delete-menu{display:flex;}
+				.delete-menu{display:none;width: 150px;height:80px;box-shadow: 0 2px 10px rgba(0,0,0,.2);position: absolute;justify-content: center;align-items: center;background-color: #fff;top: 0px;margin-left:20px;
+					&:hover{display:flex;}
+				}
+			}
+		}
+		&:hover{background:#f7f7f7;}
+	}
+}
